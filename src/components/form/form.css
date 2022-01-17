@@ -1,0 +1,22 @@
+.parent-form{
+    position: relative;
+    background-color: rgb(255, 187, 0);
+    padding: 20px;
+}
+form {
+    width: 50%;
+    margin: 50px auto;
+   }
+form .item-form{
+    padding: 10px;
+}
+form input{
+   border:none !important;
+   outline: none !important;
+}
+
+@media only screen and (max-width: 776px) {
+    form {
+     width: 100%;
+    }
+  }
